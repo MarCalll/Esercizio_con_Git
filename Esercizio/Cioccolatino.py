@@ -22,6 +22,3 @@ class Cioccolatino(Cioccolato.Cioccolato):
         }
         cioccolato_usato = quantita_cioccolato[self.forma]
         return f"Produzione di un cioccolatino a forma di {self.forma} con ripieno di {self.ripieno}. Cioccolato usato: {cioccolato_usato} grammi."
-    
-test = Cioccolatino("asd",33,"sbor")
-print(test.produce())
