@@ -5,10 +5,6 @@ class Cioccolatino(Cioccolato.Cioccolato):
         
     #AUTORE: ANDREA
     
-    # def __init__(self, ripieno):
-    #     self.forma = random.choice(["Palla", "Uovo", "Cuore"])
-    #     self.ripieno = ripieno
-    
     def __init__(self,tipo,percentuale,ripieno):
         super().__init__(tipo,percentuale)
         self.forma = random.choice(["Palla", "Uovo", "Cuore"])
