@@ -1,1 +1,1 @@
-Esercizio con python, di gruppo, fatto su github fatto durante il corso
+Esercizio con python, di gruppo, fatto su github durante il corso
